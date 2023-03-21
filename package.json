@@ -1,0 +1,20 @@
+{
+  "name": "obsgen",
+  "version": "0.0.1",
+  "description": "A package for logging chat events to your obsgen airtable",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "repository": "https://github.com/obsgen/client-node",
+  "author": "Erick Friis<erick@obsgen.com>",
+  "license": "None",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
