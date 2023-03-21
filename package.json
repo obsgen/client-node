@@ -1,6 +1,6 @@
 {
   "name": "obsgen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A package for logging chat events to your obsgen airtable",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
