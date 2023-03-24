@@ -22,7 +22,7 @@ export default class ObsGenClient {
     });
 
     if (!response.ok) {
-      throw new Error(`Failed to log event: ${await response.text()}`);
+      console.log(`Error: Failed to log event: ${await response.text()}`);
     }
   }
 }
